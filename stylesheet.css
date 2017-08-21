@@ -1,0 +1,141 @@
+
+/* Ubiquitous -- Header/Text Align/Background Color */
+body {
+  text-align: center;
+  background-color: #78ba9c;
+}
+#homelink {
+  height:150px;
+  width:auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Ubiquitous^ -- Left Directory*/
+#left {
+  position: absolute;
+  left: 5px;
+  top: 50px;
+  width: 120px;
+}
+#left img {
+  height:100px;
+  width:150px;
+}
+/* Homepage / index.html specific*/
+#header{
+  font-size: 40px;
+}
+#hiddenlink {
+  display: none;
+  height:100px;
+  width: 100px;
+  position: absolute;
+  top: 0;
+  right: 300px;
+}
+#nav {
+  max-width: 100%;
+  text-align: center;
+}
+#nav li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 40px;
+}
+#poppin {
+  position: absolute;
+  left: -300px;
+  border-radius: 10px;
+  height:600px;
+  width: 300px;
+  background-color: #808080;
+  z-index: auto;
+}
+#poppintab {
+  height: 30px;
+  width: 40px;
+  position: absolute;
+  top: 200px;
+  left: -20px;
+  background-color: #808080;
+  z-index: 50;
+  border-radius: 5px;
+}
+.poppinstuff {
+  background-color: black;
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+  margin-top: -5px;
+}
+#poppin li {
+  list-style-type: none;
+  margin-top: 65px;
+}
+.dirpane {
+  background-color: #78ba9c;
+  height: 250px;
+  width: 300px;
+}
+.dirpane img {
+  border-radius: 5px;
+}
+.dirpane a:hover {
+  opacity: .8;
+}
+
+
+/* Endeavors / endeavors.html specific */
+#myendeavors {
+  font-family: 'Droid Sans', sans-serif;
+}
+#headerE {
+  font-size: 35px;
+}
+#endeavdir li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 30px;
+}
+.endeavpane {
+  background-color: #3d4242;
+  border: solid white 1px;
+  width: 600px;
+  height: 400px;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  color: white;
+}
+.endeavpane h3, h5, p {
+ margin-left: 20px;
+ line-height: 125%;
+}
+.endeavpane h3 {
+ font-size: 18px;
+}
+.endeavpane h5 {
+ font-size: 12px;
+ margin-right:60px;
+}
+#endeavdir a {
+  text-decoration: none;
+  color: black;
+}
+#endeavdir a:hover {
+  color: #4e5656;
+}
+/* Ubiquitous -- Bottom*/
+#socialmedia {
+  margin-top: -40px;
+  width: 300px;
+  height: 50px;
+}
+#socialmedia li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 20px;
+}
