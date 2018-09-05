@@ -11,6 +11,15 @@ body {
   top: 0;
   right: 0;
 }
+#homelink2 {
+  position: absolute;
+  top: 35px;
+  right: 100px;
+  opacity: .4;
+}
+.main {
+  text-indent: 30px;
+}
 
 /* Ubiquitous^ -- Left Directory*/
 #left {
@@ -88,6 +97,10 @@ body {
   opacity: .8;
 }
 
+/* Almost ubiquitous (except homepage) */
+.leftdirpane:hover {
+  opacity: .8;
+}
 
 /* Endeavors / endeavors.html specific */
 #myendeavors {
@@ -128,9 +141,39 @@ body {
 #endeavdir a:hover {
   color: #4e5656;
 }
+.endeavlist {
+  list-style-type: disc;
+}
+
+
+/* Writing / writing.html specific */
+#mywriting {
+  font-family: 'Playfair Display', serif;
+}
+.entry {
+  text-align: left;
+  margin: 100px 25% auto 25%;
+}
+.entry p {
+  font-size: 15px;
+  line-height: 130%;
+}
+
+/* Places / places.html specific */
+#myplaces {
+  font-family: 'Indie Flower', cursive;
+#map {
+  height: 500px;
+}
+#map_canvas {
+  height: 100%;
+  width: 100%;
+}
+
+
 /* Ubiquitous -- Bottom*/
 #socialmedia {
-  margin-top: -40px;
+  margin-btoom: : -40px;
   width: 300px;
   height: 50px;
 }
