@@ -1,4 +1,3 @@
-
 /* Ubiquitous -- Header/Text Align/Background Color */
 body {
   text-align: center;
@@ -96,6 +95,12 @@ body {
 .dirpane a:hover {
   opacity: .8;
 }
+#timer {
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    z-index: -100;
+}
 
 /* Almost ubiquitous (except homepage) */
 .leftdirpane:hover {
@@ -118,14 +123,15 @@ body {
   background-color: #3d4242;
   border: solid white 1px;
   width: 600px;
-  height: 400px;
+  height: auto;
   margin: 100px auto 100px auto;
-  text-align: left;
   color: white;
 }
 .endeavpane h3, h5, p {
  margin-left: 20px;
  line-height: 125%;
+ text-align: justify;
+
 }
 .endeavpane h3 {
  font-size: 18px;
@@ -172,13 +178,15 @@ body {
 
 
 /* Ubiquitous -- Bottom*/
+
 #socialmedia {
-  margin-btoom: : -40px;
-  width: 300px;
-  height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
 }
 #socialmedia li {
-  display: inline-block;
-  list-style-type: none;
-  padding: 20px;
+    list-style-type: none;
+    display: inline-block;
 }
+/*  social media footer  */
